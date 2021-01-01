@@ -1,0 +1,23 @@
+.catogories {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    color: #c59d5f;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+}
+
+.btn:hover {
+    background-color: #c59d5f;
+    color: #fff;
+}
+
+.active {
+    text-decoration: underline;
+}

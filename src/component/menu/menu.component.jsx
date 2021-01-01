@@ -1,10 +1,20 @@
 import React from 'react';
 import './menu.style.css';
 
-const Menu = () => {
+const Menu = ({items}) => {
+    
     return (
         <div>
-            Menu
+            {
+                items.map((menu, index) => {
+                    return(
+                        <article key={index}>
+                            <p>{menu.title}</p>
+                        </article>
+                    )
+                    }
+                )
+            }
         </div>
     )
 }

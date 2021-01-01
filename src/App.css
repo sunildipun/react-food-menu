@@ -1,10 +1,16 @@
 .container {
-  width: 90vw;
+  width: 100vw;
   height: 100vh;
-  margin: 0 auto;
-  max-width: 620px;
+  /* max-width: 620px; */
   display: grid;
   place-items: center;
+  background-image: linear-gradient(#fffcf5, #fff);
+}
+
+.content {
+  width: 80vw;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .title {
