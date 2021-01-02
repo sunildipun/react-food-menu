@@ -4,12 +4,11 @@ import './menu.style.css';
 const Menu = ({items}) => {
     
     return (
-        <div>
+        <div className="section-center">
             {
                 items.map((menu, index) => {
                     return(
-                        <article key={index}>
-
+                        <article key={index} className="menu-item">
                           <img src={menu.img} alt={menu.title} className="photo" />
                             <div className="item-info">
                             <header>

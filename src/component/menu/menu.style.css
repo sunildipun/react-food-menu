@@ -1,0 +1,32 @@
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    /* justify-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.menu-item {
+    display: flex;
+    max-width: 35rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.photo {
+    width: 225px;
+    height: 200px;
+    object-fit: cover;
+    border: 0.25rem solid red;
+    border-radius: 0.25rem;
+}
+
+.item-info {
+    padding: 0 1rem;
+}
+
+
+
